@@ -45,53 +45,51 @@ public class BinarySearchRunner
     // alongside every search; this prints out what is being checked and what is happening
     
     int[] arr1 = {-10, -6, 0, 2, 12, 14, 17, 23, 35, 45, 49, 55, 81, 100, 108};
-/*
+
     // test when the target is in the middle (found on the first try!)
     int index = BinarySearch.binarySearchPrintedCommentary(arr1, 23);
     System.out.println(index);
     System.out.println("----------------------------------------------------");
-*/
-/*
+
+
     // test when the target is found after TWO iterations 
     index = BinarySearch.binarySearchPrintedCommentary(arr1, 55);
     System.out.println(index);
     System.out.println("----------------------------------------------------");
-*/
-/*
+
+
     // test when the target is found after THREE iterations 
     index = BinarySearch.binarySearchPrintedCommentary(arr1, 14);
     System.out.println(index);
     System.out.println("----------------------------------------------------");
-*/
-/*
+
+
     // test when the target is found after FOUR iterations (max for array size)
     index = BinarySearch.binarySearchPrintedCommentary(arr1, 81);
     System.out.println(index);
     System.out.println("----------------------------------------------------");
-*/
-/*
+
+
     // test when the target is found after FOUR iterations (max for array size)
     index = BinarySearch.binarySearchPrintedCommentary(arr1, 17);
     System.out.println(index);
     System.out.println("----------------------------------------------------");
-*/
-/*
+
+
     // test when the target is the first item in the array (takes 4 iterations)
     index = BinarySearch.binarySearchPrintedCommentary(arr1, -10);
     System.out.println(index);
     System.out.println("----------------------------------------------------");
-*/
-/*
+
     // test when the target is the last item in the array (takes 4 iterations)
     index = BinarySearch.binarySearchPrintedCommentary(arr1, 108);
     System.out.println(index);
     System.out.println("----------------------------------------------------");
-*/
-/*     
+
     // test when the target is NOT in the array
     index = BinarySearch.binarySearchPrintedCommentary(arr1, 13);
     System.out.println(index);
     System.out.println("----------------------------------------------------");
-*/
+
   }
 }
